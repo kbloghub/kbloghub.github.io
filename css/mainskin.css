@@ -6,7 +6,7 @@ Designer:  kbloghub
 URL:       http://www.kbloghub.com
 copyright: All Rights Reserved by kbloghub.com
 ----------------------------------------------- */
-/* Variable Definitions
+ Variable Definitions
   <Variable name="body.background" description="Background" type="background" color="#EEE" default="$(color) url() no-repeat fixed top center" value="$(color) url(http://4.bp.blogspot.com/-UAYMhyveopk/VhYJXjWRpPI/AAAAAAAAAvU/SEHWTqrw51Y/s1600/crossword.png) repeat scroll top left"/>
 
 <Group description="Key color" selector="body">
@@ -75,7 +75,7 @@ copyright: All Rights Reserved by kbloghub.com
 <Variable name="copyright.text" description="Copyright text" type="color" default="#fff" value="#ffffff"/>
 <Variable name="copyright.link" description="Copyright link" type="color" default="#fff" value="#ffffff"/>
 </Group>
-*/
+
 /*----------
 CSS Reset 
 ------------*/
