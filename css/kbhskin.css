@@ -1,3 +1,77 @@
+
+/*-----------------------------------------------
+Author  :  Kundan Gupta
+URL:       http://www.kbloghub.com
+copyright: All Rights Reserved by kbloghub.com
+----------------------------------------------- */
+ Variable Definitions
+  <Variable name="body.background" description="Background" type="background" color="#EEE" default="$(color) url() no-repeat fixed top center" value="$(color) none no-repeat scroll center center"/>
+
+
+<Group description="Key color" selector="body">
+<Variable name="keycolor" description="Key Color" type="color" default="#7ac143" value="#93ba4f"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#666666" value="#6c6c6c"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#2DA38E" value="#2fad7d"/>
+</Group>
+<Group description="Backgrounds" selector="body">
+<Variable name="content.bg" description="Post And Sidebar Background" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="featured.background.color" description="Featured Background" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="tab.background.c" description="Tab Background" type="color" default="#464646" value="#a5bf79"/>
+<Variable name="body.meta.bg" description="Meta Background" type="color" default="#F5F5F5" value="#f6f6f6"/>
+<Variable name="body.car.bg" description="Recent Carousel" type="color" default="#383838" value="#4a4a4a"/>
+</Group>
+<Group description="Main colors" selector="body">
+<Variable name="body.text.c" description="Text Color" type="color" default="#222222" value="#404040"/>
+<Variable name="body.heading.c" description="Heading Color" type="color" default="#222222" value="#404040"/>
+<Variable name="body.meta.c" description="Meta Color" type="color" default="#6F6F6F" value="#747474"/>
+<Variable name="body.border.c" description="Border Color" type="color" default="#eee" value="#efefef"/>
+<Variable name="body.icon.c" description="Icon Color" type="color" default="#999999" value="#9c9c9c"/>
+</Group>
+<Group description="Main Fonts" selector="body">
+<Variable name="body.font" description="Text Font" type="font" default="normal normal 1px 'Lato', sans-serif" value="normal normal 16px &#39;Lato&#39;, sans-serif"/>
+<Variable name="heading.font" description="Heading Font" type="font" default="normal normal 12px 'Lato', sans-serif" value="normal normal 12px &#39;Lato&#39;, sans-serif"/>
+<Variable name="meta.font" description="Meta Font" type="font" default="normal normal 12px 'Lato', sans-serif" value="normal normal 12px &#39;Lato&#39;, sans-serif"/>
+</Group>
+<Group description="Top Bar" selector=".topnav">
+<Variable name="topnav.bg" description="TopBar background" type="color" default="#333" value="#474747"/>
+<Variable name="topnav.link" description="TopBar Link Color" type="color" default="#d1d1d1" value="#d2d2d2"/>
+<Variable name="topnav.icon.color" description="TopBar Icon Color" type="color" default="#d1d1d1" value="#d2d2d2"/>
+<Variable name="topnav.txt.color" description="TopBar Text color" type="color" default="#FFFFFF" value="#ffffff"/>
+</Group>
+<Group description="Middle Header" selector=".tl-midheader">
+<Variable name="midheader.bg" description="Middle Header Background " type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="midheader.link" description="Mid Header Link" type="color" default="#666666" value="#6c6c6c"/>
+<Variable name="midheader.text" description="Mid Header Text" type="color" default="#666666" value="#6c6c6c"/>
+<Variable name="midheader.font" description="Header Font" type="font" default="normal normal 45px 'Lato', sans-serif" value="normal normal 45px &#39;Lato&#39;, sans-serif"/>
+</Group>
+<Group description="Dropdown" selector=".dropdown">
+<Variable name="dropdown.bg" description="Nav background" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="dropdown.link" description="Nav Link" type="color" default="#666666" value="#6c6c6c"/>
+<Variable name="dropdown.smbg" description="Nav Submenu Background" type="color" default="#292929" value="#424242"/>
+<Variable name="dropdown.smlc" description="Nav Submenu Link" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="dropdown.metaa" description="Nav Meta" type="color" default="#A0A0A0" value="#a2a2a2"/>
+</Group>
+<Group description="Dropdown2" selector=".dropdown">
+<Variable name="dropdown.font" description="Nav Font" type="font" default="normal bold 14px 'Lato', sans-serif" value="normal bold 14px &#39;Lato&#39;, sans-serif"/>
+</Group>
+<Group description="Author Box" selector=".tl-author">
+<Variable name="author.bg" description="Author Box Background" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="author.text" description="Author Box Text" type="color" default="#666666" value="#6c6c6c"/>
+<Variable name="author.icon" description="Author Box Icon" type="color" default="#F5F5F5" value="#f6f6f6"/>
+</Group>
+<Group description="Footer" selector=".tl-footer-wrap">
+<Variable name="footer.bg" description="Footer background" type="color" default="#151515" value="#3e3e3e"/>
+<Variable name="footer.text" description="Footer text" type="color" default="#bbb" value="#bdbdbd"/>
+<Variable name="footer.link" description="Footer links" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="footer.heading" description="Footer Heading" type="color" default="#FFFFFF" value="#ffffff"/>
+<Variable name="footer.border" description="Footer Border" type="color" default="#404040" value="#4e4e4e"/>
+</Group>
+<Group description="Footer Branding" selector=".tl-footer-branding">
+<Variable name="brand.bg" description="Branding Background" type="color" default="#151515" value="#3e3e3e"/>
+<Variable name="brand.text" description="Branding text" type="color" default="#fff" value="#ffffff"/>
+<Variable name="brand.link" description="Branding Link" type="color" default="#d1d1d1" value="#d2d2d2"/>
+</Group>
+
 /*----------
 CSS Reset 
 ------------*/
