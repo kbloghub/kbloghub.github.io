@@ -476,7 +476,7 @@ nav>ul>li.submenu.choose-cat ul a:hover{background:#e5192c;color:#fff;}
 .featured-inner{padding:0;overflow:hidden}
 .featured-small .featured-inner{margin-bottom:5px;margin-right:5px;}
 .featured-small.last-child .featured-inner{margin-right:0}
-.featured-left .tl-topost-item,.tl-postCarousel.topCar .car-item{max-height:208px}
+.featured-left .tl-topost-item,.tl-postCarousel.topCar .car-item{max-height:415px}
 .featured-right .tl-topost-item{height:205px}
 .featured-top .popup-stuff,.featured-top .ss,.featured-top .tl-recentLink,.tl-postCarousel-F.fouritem .tl-recentLink{display:none}
 .featured-top .tl-wspace{padding:0;border:none}
