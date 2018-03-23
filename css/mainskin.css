@@ -108,7 +108,7 @@ abbr,acronym{border:0}
 /*----------
 Theme Main Layout
 ------------*/
-body{background:#EEEEEE url(http://4.bp.blogspot.com/-UAYMhyveopk/VhYJXjWRpPI/AAAAAAAAAvU/SEHWTqrw51Y/s1600/crossword.png) repeat scroll top left;font:normal normal 16px 'Lato', sans-serif;color:#222222;position:relative;margin:0;padding:0;-webkit-font-smoothing:antialiased!important}
+body{background:#EEEEEE url(https://4.bp.blogspot.com/-UAYMhyveopk/VhYJXjWRpPI/AAAAAAAAAvU/SEHWTqrw51Y/s1600/crossword.png) repeat scroll top left;font:normal normal 16px 'Lato', sans-serif;color:#222222;position:relative;margin:0;padding:0;-webkit-font-smoothing:antialiased!important}
 #outer-wrapper{margin:0 auto;overflow:hidden;background:#FFFFFF;box-shadow: 0 0 40px rgba(0,0,0,0.05);}
 .main-and-sidebar{position:relative;overflow:hidden;width:100%;margin-bottom:40px}
 #main-wrapper{width:68%}
