@@ -79,30 +79,7 @@ $(document)['ready'](function(_0x78a9x2) {
     _0x78a9x2('#related-wrap .title-wrap h2')['text'](tyOptions['relatedTitleText']);
     _0x78a9x2('.FollowByEmail .widget-content')['prepend']('<p class=\'before-text\'>' + tyOptions['followByEmailText'] + '</p>');
     _0x78a9x2('.cmm-title h2')['text'](tyOptions['cmmTitleText']);
-    _0x78a9x2('.block-image .thumb img, .PopularPosts ul li img, .avatar-image-container img')['each'](function() {
-        var _0x78a9x12 = _0x78a9x2(this)['attr']('src'),
-            _0x78a9x12 = _0x78a9x12['replace'](/\/s[0-9]+\-c/g, '/s1600'),
-            _0x78a9x12 = _0x78a9x12['replace']('/w72-h72-p-nu/', '/s1600/'),
-            _0x78a9x12 = _0x78a9x12['replace']('/hqdefault.jpg', '/mqdefault.jpg'),
-            _0x78a9x12 = _0x78a9x12['replace']('/default.jpg', '/mqdefault.jpg'),
-            _0x78a9x12 = _0x78a9x12['replace']('/s35/', '/s45/'),
-            _0x78a9x12 = _0x78a9x12['replace']('//img1.blogblog.com/img/blank.gif', '//4.bp.blogspot.com/-uCjYgVFIh70/VuOLn-mL7PI/AAAAAAAADUs/Kcu9wJbv790hIo83rI_s7lLW3zkLY01EA/s45-r/avatar.png'),
-            _0x78a9x12 = _0x78a9x12['replace']('http://3.bp.blogspot.com/-Yw8BIuvwoSQ/VsjkCIMoltI/AAAAAAAAC4c/s55PW6xEKn0/s1600-r/nth.png', tyOptions['noThumbnail']);
-        _0x78a9x2(this)['attr']('src', _0x78a9x12)
-    });
-    _0x78a9x2('.PopularPosts .widget-content ul li')['each'](function() {
-        var _0x78a9xb = _0x78a9x2(this),
-            _0x78a9x13 = _0x78a9xb['find']('.item-title a'),
-            _0x78a9x14 = _0x78a9x13['attr']('href');
-        _0x78a9x2['ajax']({
-            url: _0x78a9x14,
-            type: 'get',
-            success: function(_0x78a9x15) {
-                var _0x78a9x16 = _0x78a9x2(_0x78a9x15)['find']('.published')['text']();
-                _0x78a9x13['parent']()['after']('<div class=\'ty-meta\'><span class=\'item-date\'>' + _0x78a9x16 + '</span></div>')
-            }
-        })
-    });
+    
     _0x78a9x2('.Label a')['attr']('href', function(_0x78a9xb, _0x78a9x17) {
         return _0x78a9x17['replace'](_0x78a9x17, _0x78a9x17 + '?&max-results=' + tyOptions['labelResults'])
     });
