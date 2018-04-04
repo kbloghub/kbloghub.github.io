@@ -1322,7 +1322,7 @@ padding: 0 0 7px
 .post-tags a {
 float: left;
 height: 21px;
-background: #ffffff;
+background: #009199;
 color: #f2f2f2;
 font-size: 10px;
 line-height: 21px;
@@ -1337,7 +1337,7 @@ background-color: #446CB3;
 transition: background .3s
 }
 .post-tags a:hover {
-background-color: #ffffff
+background-color: #009199
 }
 .ty-share-post {
 position: relative;
@@ -1516,7 +1516,7 @@ text-align: left
 #blog-pager-older-link a {
 display: block;
 float: left;
-background-color: #ffffff;
+background-color: #009199;
 margin-right: 0;
 padding: 0 12px;
 border: 0;
