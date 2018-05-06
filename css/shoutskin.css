@@ -183,8 +183,9 @@ line-height: inherit
 }
 /* Body */
 body {
-background: #f8f8f8 url() repeat scroll top left;
-font-family: 'Roboto', sans-serif;
+background: #f8f8f8 url(https://3.bp.blogspot.com/-r0ooSIT2FH8/Wu6eEZ_38bI/AAAAAAAAGeU/CdnAzkwL5LQMaxUoflHPVGdGRluSHKmKQCLcBGAs/s320/gear.jpg) repeat scroll top left;
+background-size:cover;
+    font-family: 'Roboto', sans-serif;
 color: #777;
 font-size: 14px;
 font-weight: 400;
