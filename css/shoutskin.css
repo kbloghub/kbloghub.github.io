@@ -183,9 +183,8 @@ line-height: inherit
 }
 /* Body */
 body {
-background: #f8f8f8 url(<a href="https://www.gearbest.com/promotion-clearance-sale-special-355.html?lkid=14023669" target="_blank"><img alt="https://www.gearbest.com/promotion-clearance-sale-special-355.html?lkid=14023669" border="0" data-original-height="564" data-original-width="1358" height="100%" src="https://3.bp.blogspot.com/-r0ooSIT2FH8/Wu6eEZ_38bI/AAAAAAAAGeU/CdnAzkwL5LQMaxUoflHPVGdGRluSHKmKQCLcBGAs/s320/gear.jpg" width="100%" /></a>) repeat scroll top left;
-background-size:cover;
-    font-family: 'Roboto', sans-serif;
+background: #f8f8f8 url( ) repeat scroll top left;
+font-family: 'Roboto', sans-serif;
 color: #777;
 font-size: 14px;
 font-weight: 400;
